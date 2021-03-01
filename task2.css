@@ -61,26 +61,26 @@ ul,ol {
 .hover-opacity {
   transition: opacity 0.2s;
 }
-.header-logo >.header-logo-pc {
-  display: none;
-}
 .header-logo >.header-logo-sp {
-  display: block;
+  display: none;
 }
 .header-logo >.header-logo-pc {
   width: auto;
-  height: 20px;
+  height: 20px
 }
 .header-nav-list .contents-tidy {
   align-item: center;
 }
 .header-nav .header-nav-item {
   display: block;
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
 }
 .header-nav .header-nav-item > span {
   display: block;
   font-weight: bold;
   text-align: center;
+  padding-left: 25px;
 }
 .header-nab .header-nav-item > span:first-child {
   font-family: 'Lato', sans-serif;
@@ -90,4 +90,17 @@ ul,ol {
 }
 .header-nav-list > li:last-child {
   margin-left: 20px;
+}
+.link-button {
+  text-decoration: none;
+  height: 40px;
+  font-size: 12px;
+  
+}
+.header-button {
+  width: 150px;
+}
+@media screen and (min-width: 767px)
+a.link-button {
+  color: #fff;
 }
