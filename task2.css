@@ -540,3 +540,23 @@ plan-cassettes-skipping-right>p {
     transition: 0.2s;
 }
 }
+.site-footer {
+  padding-top: 80px;
+  padding-bottom: 40px;
+  background-color: #f79314;
+}
+.page-top-button.contents-tidy {
+  align-items: center;
+  justify-content: center;
+}
+.page-top-button {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: -105px;
+  right: 50px;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 0 12px 30px -15px;
+  transition: 0.2s;
+}
