@@ -47,6 +47,7 @@ li {
 .site-header {
   padding-top: 20px;
   padding-bottom: 20px;
+  width: 100%;
 }
 .site-header-innner .site-header > :last-child {
   display: inline-flex;
@@ -356,4 +357,186 @@ a.link-button {
   line-height: 1;
   text-align: center;
   color: #f79214;
+}
+.plan-cassettes {
+  margin-top: 40px;
+  padding: 16px 20px 20px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+.plan-cassettes-head {
+  margin-bottom: 8px;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 26px;
+}
+.plan-cassettes-head::before {
+  content: '';
+  position: relative;
+  top: 3px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+  background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/icon-point.png);
+  background-size: 100%;
+}
+.list-content {
+  justify-content: flex-start;
+  align-items: baseline;
+  padding-left: 8px;
+  font-size: 16px;
+  line-height: 26px;
+}
+.list-content::before {
+  content: '';
+  display: inline-block;
+  min-width: 8px;
+  height: 8px;
+  margin-right: 10px;
+  border-radius: 50%;
+  background-color: #f79314;
+}
+.desc-title {
+  align-items: center;
+  width: 142px;
+  margin-top: 20px;
+  padding: 4px 26px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 15px;
+  color: #f79214;
+  background-color: #fcfaf5;
+}
+.desc-title.detail::before {
+  width: 17px;
+  height: 17px;
+  background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/icon-pencil.png);
+}
+.desc-title::before {
+  content: '';
+  display: inline-block;
+  margin-top: 2px;
+  margin-right: 6px;
+  background-size: 100%;
+}
+.desc-text {
+  margin-top: 20px;
+  padding-left: 16px;
+  font-size: 16px;
+  line-height: 18px;
+}
+.desc-title.term::before {
+  width: 16px;
+  height: 18px;
+  margin-left: 2px;
+  background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/icon-calender.png);
+}
+.desc-title.condition::before {
+  width: 17px;
+  height: 14px;
+  margin-left: 2px;
+  background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/icon-condition.png);
+}
+.desc-title.fee::before {
+  width: 20px;
+  height: 20px;
+  background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/icon-coin.png);
+}
+.plan-cassettes-tools {
+  display: flex;
+  margin-top: 28px;
+}
+.plan-cassettes-tool:nth-child(odd) {
+  margin-right: 2px;
+}
+.plan-cassettes-tool {
+  width: 49%;
+  float: left;
+}
+.plan-cassettes-tool-box {
+  padding: 13px 8px 18px;
+}
+.plan-cassettes-tool-label {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 4px;
+}
+.plan-cassettes-tool-body {
+  font-size: 16px;
+}
+.plan-cassettes-skipping {
+  display: flex;
+  padding: 20px;
+}
+.plan-cassettes-skipping-left {
+  float: left;
+  width: 90px;
+  height: 90px;
+  text-align: center;
+  margin-right: 20px;
+}
+.plan-cassettes-skipping-right {
+  float: left;
+}
+.plan-cassettes-skipping-right>h4 {
+  margin-bottom: 8px;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 26px;
+}
+.plan-cassettes-skipping-right>h4>br {
+  display: none;
+}
+plan-cassettes-skipping-right>p {
+  font-size: 16px;
+}
+.plan-cassettes-skipping-right>p>span {
+    color: #F79214;
+}
+.main-section.pick-up-contents {
+  padding-top: 40px;
+  background-color: #f6f6f6;
+  overflow: hidden;
+  padding-bottom: 129px;
+  position: relative;
+}
+.pick-up-contents > .content-width {
+    background-image: url(.https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/bg-section-top-course.png);
+    background-size: 281px 275px;
+    background-repeat: no-repeat;
+    background-position: calc(100% - 50px) top;
+    padding-top: 35px;
+}
+.pick-up-contents-list > .pick-up-contents-cassette {
+    padding-left: 20px;
+    padding-right: 20px;
+    width: calc(100% / 3);
+}
+.pick-up-contents-media .pick-up-contents-media-thumbnail {
+    overflow: hidden;
+    border-radius: 10px;
+    width: 100%;
+    height: 0;
+    position: relative;
+    padding-top: calc((190/320) * 100%);
+}
+.pick-up-contents-media .pick-up-contents-media-thumbnail > img {
+    width: 100%;
+    height: 145%;
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+}
+.pick-up-contents-media .pick-up-contents-media-text {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 15px;
+    line-height: 1.8;
+}
+@media screen and (min-width: 767px) {
+.hover-text-color {
+    transition: 0.2s;
+}
 }
