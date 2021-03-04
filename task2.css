@@ -412,7 +412,7 @@ a.link-button {
 }
 .desc-title {
   align-items: center;
-  width: 142px;
+  width: 90px;
   margin-top: 20px;
   padding: 4px 26px;
   font-size: 16px;
@@ -455,6 +455,9 @@ a.link-button {
   width: 20px;
   height: 20px;
   background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/icon-coin.png);
+}
+.desc-text + .desc-title {
+    margin-top: 30px;
 }
 .plan-cassettes-tools {
   display: flex;
