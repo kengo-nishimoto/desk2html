@@ -265,6 +265,15 @@ a.link-button {
   font-size: 16px;
   font-weight: bold;
 }
+.point-box-text:before {
+  content: '';
+  display: inline-block;
+  width: 23px;
+  height: 20px;
+  margin-right: 10px;
+  background: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/icon-finger.png) no-repeat;
+  background-size: 100%;
+}
 .contents-course-block-box {
   margin-top: 60px;
   padding: 0px 40px 0px;
